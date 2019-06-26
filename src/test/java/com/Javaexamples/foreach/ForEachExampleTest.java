@@ -1,4 +1,4 @@
-package com.Java8Examples.ForEach;
+package com.Javaexamples.foreach;
 
 import java.util.Arrays;
 import java.util.List;
@@ -6,7 +6,9 @@ import java.util.List;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.Java8Examples.ForEach.ForEachExample;
+import com.javaexamples.foreach.ForEachExample;
+
+
 
 public class ForEachExampleTest {
 

@@ -1,4 +1,4 @@
-package com.Java8Examples.defaultMethod;
+package com.javaexamples.defaultmethod;
 
 public class Shape implements Square,Rectangle {
 

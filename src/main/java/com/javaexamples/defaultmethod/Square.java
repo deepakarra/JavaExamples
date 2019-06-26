@@ -1,4 +1,4 @@
-package com.Java8Examples.defaultMethod;
+package com.javaexamples.defaultmethod;
 
 public interface Square {
  default void name() {
