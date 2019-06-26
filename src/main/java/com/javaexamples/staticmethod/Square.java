@@ -1,4 +1,4 @@
-package com.Java8Examples.StaticMethod;
+package com.javaexamples.staticmethod;
 
 public interface Square {
  default void name() {
