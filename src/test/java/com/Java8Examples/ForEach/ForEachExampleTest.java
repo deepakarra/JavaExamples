@@ -1,10 +1,12 @@
+package com.Java8Examples.ForEach;
+
 import java.util.Arrays;
 import java.util.List;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.Java8Examples.ForEachExample;
+import com.Java8Examples.ForEach.ForEachExample;
 
 public class ForEachExampleTest {
 

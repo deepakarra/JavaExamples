@@ -1,4 +1,4 @@
-package com.Java8Examples;
+package com.Java8Examples.ForEach;
 
 import java.util.*;
 
