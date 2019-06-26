@@ -1,12 +1,18 @@
+package com.Java8Examples;
+
 import java.util.*;
 
 /**
- * Example to double every number of an array using ForEach
+ * Example to square every number of an array using ForEach
  *
  */
 public class ForEachExample {
 	public static void main(String[] argv) throws Exception {
+		List<Integer> list = Arrays.asList(new Integer[] { 1, 2, 3, 4 });
+		new ForEachExample().getSquareNumber(list);
+	}
 
+	public List<Integer> getSquareNumber(List<Integer> list) {
 		// Java7
 		// List<Integer> list = Arrays.asList(new Integer[]{1,2,3,4});
 		// for(int i=0;i<list.size();i++) {
@@ -14,7 +20,8 @@ public class ForEachExample {
 		// }
 
 		// java8
-		List<Integer> list = Arrays.asList(new Integer[] { 1, 2, 3, 4 });
-		list.forEach(i -> System.out.println(i * i));
+		List<Integer> squareList= new ArrayList<>();
+		list.forEach(i -> squareList.add(i * i));
+		return squareList;
 	}
 }
