@@ -1,5 +1,7 @@
 package com.javaexamples.defaultmethod;
 
+/*This class implements two interfaces containing the same default method.
+ If the class implements two interfaces containing the same default method, the class must override the default method * */
 public class Shape implements Square,Rectangle {
 
 	@Override
