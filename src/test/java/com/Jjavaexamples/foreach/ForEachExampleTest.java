@@ -1,4 +1,4 @@
-package com.Javaexamples.foreach;
+package com.Jjavaexamples.foreach;
 
 import java.util.Arrays;
 import java.util.List;
