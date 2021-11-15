@@ -12,6 +12,6 @@ public class SumDoubleOfEvenNumbersTest {
 
 	@Test
 	public void SuccessfulSumOfEvenNumbers() {
-		Assert.assertEquals(12,SumDoubleOfEvenNumbers.getDoubleSumOfEven(Arrays.asList(1,2,4,5)));
+		Assert.assertEquals(12,sumOfEvenNumbers.getDoubleSumOfEven(Arrays.asList(1,2,4,5)));
 	}
 }
