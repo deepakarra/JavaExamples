@@ -3,12 +3,11 @@ package MapFlatMap;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Set;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import java.util.stream.Collectors;
 
-
+/*
+ *Example to Convert the list into stream and use flatmap 
+ */
 public class FlatMapExample {
 
 	public static void main (String[] args) {
