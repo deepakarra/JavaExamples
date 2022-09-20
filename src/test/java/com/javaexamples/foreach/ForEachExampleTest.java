@@ -1,14 +1,10 @@
-package com.Jjavaexamples.foreach;
+package com.javaexamples.foreach;
 
 import java.util.Arrays;
 import java.util.List;
 
 import org.junit.Assert;
 import org.junit.Test;
-
-import com.javaexamples.foreach.ForEachExample;
-
-
 
 public class ForEachExampleTest {
 
